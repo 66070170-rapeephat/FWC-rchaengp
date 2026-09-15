@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.parallax-1, .parallax-2 {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax-1 {
+    background-image: url("https://cdn.pixabay.com/photo/2020/06/20/11/09/cat-5320572_640.jpg");
+}
+
+.parallax-2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS29F-In-axFL6U1mI0nsjO5aW_1Tj4ACYIseI3UGPYQdXGg4oNp95kTvcZ&s=10");
+}
+
+.caption {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    font-size: 20px;
+}
