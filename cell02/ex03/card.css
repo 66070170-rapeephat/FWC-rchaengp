@@ -1,0 +1,80 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.profile-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    margin: 15px 0;
+}
+
+td {
+    text-align: center;
+    padding: 6px 15px;
+    border: none;
+}
+
+.login {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.description {
+    font-size: 14px;
+    color: #777;
+}
+
+.sub-desc {
+    font-size: 14px;
+    color: #333;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.contact-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #689bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.contact-btn:hover {
+    background-color: #4884fc;
+}
