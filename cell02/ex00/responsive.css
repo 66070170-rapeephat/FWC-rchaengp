@@ -1,31 +1,20 @@
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
-
         table {
-            width: 100%;
-            height: 100%;
+            width: 500px;
+            height: 150px;
             border-collapse: collapse;
             border: 1px solid black;
             text-align: center;
         }
-
         td {
             width: 50%;
             border: 1px solid black;
             vertical-align: middle;
+            padding-left: 10px;
             font-size: 1.2rem;
         }
-
-        .first {
+        .first{
             background-color: #a7c7e7;
         }
-
         .second {
             background-color: #f8c8dc;
         }
